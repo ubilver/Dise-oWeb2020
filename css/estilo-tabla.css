@@ -1,0 +1,29 @@
+#contenedor{
+    background: #85C2C0;
+    margin: 20px auto;
+    width: 85%;
+    height: 300px;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+table{
+    background-color: #fff;
+    text-align: left;
+    width: 400px;
+    margin: auto;
+}
+
+th, td{
+    padding: 5px;
+}
+
+thead{
+    background: #246355;
+    border-bottom: solid 5px;
+    color: #fff;
+}

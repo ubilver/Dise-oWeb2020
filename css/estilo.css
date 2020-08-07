@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    width: 85%;
+    background: #4E94AB;
+    margin: auto;
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li{
+    border-right: 1px solid #fff;
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background: rgba(0,0,0,0.3);
+}
