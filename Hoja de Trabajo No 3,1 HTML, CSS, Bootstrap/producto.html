@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <title>Productos</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark">
+              <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="producto.html">Productos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Informacion</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Estudiante</a>
+                  <a class="dropdown-item" href="#">Universidad</a>
+                  <a class="dropdown-item" href="#">Galeria</a>
+                </div>
+              </li>
+            </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <img src="img/usuario.png" width="30" height="30" alt="" loading="lazy">
+    </form>
+</nav>
+
+            
+    <div class="container px-lg-5">
+      <div class="row mx-lg-n5">
+        <div class="col py-3 px-lg-5 border bg-light">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Id</th>
+                  <th scope="col">Producto</th>
+                  <th scope="col">Descripcion</th>
+                  <th scope="col">Precio</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Memoria USB</td>
+                  <td>Kigston 32 BG</td>
+                  <td>60</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Mouse</td>
+                  <td>Manhatan Inalambrico</td>
+                  <td>150</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Teclado</td>
+                  <td>Dell</td>
+                  <td>80</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <div class="col py-3 px-lg-5 border bg-light">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Producto</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Produdcto">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Descripción</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Descripción">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Precio</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Precio">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Categoria</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Categoria 1</option>
+                  <option>Categoria 2</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Aceptar</button>
+            </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
